@@ -20,18 +20,16 @@
 ##############################################################################
 
 {
-    'name': 'Auto Refresh inbox message, Kanban and list view'
+    'name': 'Auto Refresh inbox message, Kanban and list view',
     'version': '1.0',
     'author': "Fisher, Odoo Community Association (OCA)",
     'website': 'https://github.com/szufisher/web',
     'category': 'hidden',
     'sequence': 100,
     'summary': 'auto refresh inbox message, kanban and list view ',
-    'images': [
-            ],
     'depends': [
         'web',
-        'mail', 
+        'mail',
         'bus_enhanced',
     ],
     'data': [
